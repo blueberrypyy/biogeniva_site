@@ -1,0 +1,64 @@
+#main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: background: #eac656;
+    color: pink;
+}
+
+/* -- NAVBAR SECTION -- */
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    color: white;
+    background-image: linear-gradient(to right, #28bd3c, #055410);
+    padding: 0 !important;
+
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 2em;
+}
+
+.navbar-nav li {
+    padding: 0 20px;
+}
+
+.nav-item a {
+    color: #fff;
+    font-weight: 300;
+}
+
+.biogeniva {
+    font-size: 400%;
+    margin-left: 1em;
+    margin-top:80px;
+    color: pink;
+}
+
+.biogeniva-p {
+    margin-left: 5em;
+    color: #fff;
+}
+
+
+/*-- COL SECTION --*/
+.container-space {
+    margin-top:
+
+}
+
+.col-section {
+    padding-top: 17em;
+}
+
+
+
+
+
+

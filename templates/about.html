@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+
+<body>
+
+    <style>
+        .my-custom-row {
+            background: bisque;
+            height: 300px;
+        }
+    </style>
+
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm-4 col-md-6 col-lg-4'>Column One</div>
+            <div class='col-sm-8 col-md-6 col-lg-6'>Column Two</div>
+        </div>
+
+        <div class='row'>
+            <div class='col-sm-6 order-md-2'>Col 1</div>
+            <div class='col-sm-6 order-md-1'>Col 2</div>
+        </div>
+
+        <div class='row'>
+            <div class='col-sm-4 offset-1'>Col 1</div>
+            <div class='col-sm-4 offset-2'>Col 2</div>
+        </div>
+
+        <div class='row my-custom-row justify-content-center'>
+            <div class='col-sm-6'><div class='p-3 boarder bg-light'>Col 1</div></div>
+            <div class='col-sm-6'><div class='p-3 boarder bg-light'>Col 2</div></div>
+            <div class='col-sm-6'><div class='p-3 boarder bg-light'>Col 3</div></div>
+            <div class='col-sm-6'><div class='p-3 boarder bg-light'>Col 4</div></div>
+        </div>
+
+        <div class='row justify-content-center'>
+            <div class='col'><button type='button' class='btn btn-success'>Success</button></div>
+            <div class='col'><button type='button' class='btn btn-secondary'>Secondary</button></div>
+            <div class='col'><button type='button' class='btn btn-danger'>Danger</button></div>
+        </div>
+
+
+    </div>
+</body>
+
+{% endblock content %}

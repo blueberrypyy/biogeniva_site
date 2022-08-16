@@ -1,0 +1,10 @@
+.biogeniva {
+    border-style: solid;
+    border-color: red;
+    color: yellow;
+}
+
+#navbar {
+    color: green;
+    background-image: linear-gradient(to right, #28bd3c, #097518);
+}
